@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://clarity.edka.me/" />
+<title>Test_Case_page_of_admin</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Test_Case_page_of_admin</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>#/signin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=password</td>
+	<td>123456</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>admin@admin.com</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForVisible</td>
+	<td>//ng-table-select-count/div/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//ng-pills-ui-router/div/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//td</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>name=Search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=span.ng-binding &gt; div.ng-scope</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.admin-dashboard-chart_name</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.admin-dashboard-chart. &gt; div.admin-dashboard-chart_name</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=canvas.ng-isolate-scope</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.admin-dashboard-chart. &gt; div.admin-dashboard-chart_chart-block &gt; canvas.ng-isolate-scope</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//span/div/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//span/div/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=span.ng-binding.sort-indicator</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//th[2]/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//th[3]/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//th[4]/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//th[5]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//th[6]/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//th[7]/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//th[8]/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//th[9]/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//th[10]/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//th[11]/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//th[12]/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>8675309</td>
+	<td>matter</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//td/div</td>
+	<td>CASE</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//td[4]/div</td>
+	<td>CaseName</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//td[8]/div/span</td>
+	<td>CollectionStatus</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//td[9]/div/span</td>
+	<td>HostingStatus</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//td[10]/div/span</td>
+	<td>ReviewStatus</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//td[11]/div/span</td>
+	<td>TranslationStatus</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//td[12]/div/span</td>
+	<td>DepositionServices</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//td[2]/div</td>
+	<td>ClientName</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//td[6]/div/button</td>
+	<td>CasePM</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//dashboard-list-cases/div/div/div/input</td>
+	<td>${matter}</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//td[3]/div</td>
+	<td>${matter}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//one-case/div[3]/div/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[3]/div[2]/span</td>
+	<td>${matter}</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[2]/span</td>
+	<td>${CaseName}</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[7]/div[2]</td>
+	<td>${CollectionStatus}</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[8]/div[2]</td>
+	<td>${HostingStatus}</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[9]/div[2]</td>
+	<td>${ReviewStatus}</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[11]/div[2]</td>
+	<td>${TranslationStatus}</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[10]/div[2]</td>
+	<td>${DepositionServices}</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[5]/div[2]</td>
+	<td>${CasePM}</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//a/span[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div/div/div/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//quick-stats/div/div/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div/div/div/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div/div/div[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div/div/div[2]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[2]/div/div[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[3]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[3]/div/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[3]/div/div[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[4]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[4]/div/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[4]/div/div[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[5]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[5]/div/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[5]/div/div[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[3]/button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[2]/div/div/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div/div/div/div[2]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div/div/div[2]/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[2]/div[3]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[2]/div[4]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[2]/div[5]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[6]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[7]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[8]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[9]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[10]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[11]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[11]/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[6]/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[7]/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[8]/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[9]/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[10]/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//ng-pills-ui-router/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//ng-pills-ui-router/div/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//ng-pills-ui-router/div/div[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//ng-pills-ui-router/div/div[4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//ng-pills-ui-router/div/div[5]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//details-case/div/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//a[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//span/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//uib-accordion/div/div[1]/div[1]/h4/a/span/div/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[2]/div/h4/a/span/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//uib-accordion/div/div[2]/div[1]/h4/a/span/div/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[3]/div/h4/a/span/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//uib-accordion/div/div[3]/div[1]/h4/a/span/div/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[4]/div/h4/a/span/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//uib-accordion/div/div[4]/div[1]/h4/a/span/div/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[5]/div/h4/a/span/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//uib-accordion/div/div[5]/div[1]/h4/a/span/div/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[6]/div/h4/a/span/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//uib-accordion/div/div[6]/div[1]/h4/a/span/div/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[7]/div/h4/a/span/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//uib-accordion/div/div[7]/div[1]/h4/a/span/div/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[2]/div/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//details-case/div/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//uib-accordion/div/div/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//processing-case/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//processing-case/div/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//div[3]/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//div[4]/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//div[6]/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//div[7]/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>//div[5]/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//a[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//uib-accordion/div/div/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//processing-case/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//processing-case/div/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[3]/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[4]/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[6]/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[7]/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[5]/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.nav-bar-user-info_dropdown.dropdown-toggle</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Sign Out</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

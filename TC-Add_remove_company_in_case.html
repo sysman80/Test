@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://clarity.edka.me/" />
+<title>Add_remove_company_in_case</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Add_remove_company_in_case</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>#/signin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=password</td>
+	<td>123456</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>admin@admin.com</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForVisible</td>
+	<td>//ng-table-select-count/div/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//ng-pills-ui-router/div/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=Search</td>
+	<td>C2000010</td>
+</tr>
+<tr>
+	<td>waitForVisible</td>
+	<td>//td/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//td/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//ng-pills-ui-router/div/div[5]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//ng-pills-ui-router/div/div[5]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForVisible</td>
+	<td>//td</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//clients-case/div/div/div/div/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//th/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//th[2]/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//td/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//td[2]/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div/div/div/div/p</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//ng-pagination/div/div/button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//ng-pagination/div/ul/li/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//ng-pagination/div/div[3]/button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//ng-table-select-count/div/div/span/span[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//clients-case/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//clients-case/div/div/div/div/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[3]/span/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>abastudio</td>
+	<td>ClientName1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//clients-case/div/div/div/div/input</td>
+	<td>${ClientName1}</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//div[3]/span/div</td>
+	<td>${ClientName1}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[3]/span/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//td/div/span</td>
+	<td>${ClientName1}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//ng-table-tls/div/div[1]/table/tbody/tr[1]/td[2]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.nav-bar-user-info_dropdown.dropdown-toggle</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Sign Out</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

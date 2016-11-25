@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://clarity.edka.me/" />
+<title>425-add-combine-two-companies-to-one</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">425-add-combine-two-companies-to-one</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>#/signin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=password</td>
+	<td>123456</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>admin@admin.com</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForVisible</td>
+	<td>//ng-table-select-count/div/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>AccessData Group</td>
+	<td>MergeClientName</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=Search</td>
+	<td>${MergeClientName}</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>//td/div</td>
+	<td>${MergeClientName}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//td/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//table</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div/div/div/div/span</td>
+	<td>${MergeClientName}</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[3]/button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[3]/button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[3]/ul/li/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[3]/ul/li[2]/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//li[3]/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//li[3]/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//merge-clients/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//merge-clients/div/div[2]/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//span[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[3]/span/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[3]/span[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[2]/div/div/div[4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[5]/div/span/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[2]/button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//button[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.nav-bar-user-info_dropdown.dropdown-toggle</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Sign Out</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
