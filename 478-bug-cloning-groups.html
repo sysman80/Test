@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://clarity.edka.me/" />
+<title>478-bug-cloning-groups</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">478-bug-cloning-groups</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>#/signin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//sign-in/div/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=password</td>
+	<td>123456</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>admin@admin.com</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForVisible</td>
+	<td>//ng-table-select-count/div/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//nav-bar-user-info/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//li/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//settings-bar/div/div[2]/div[2]/a[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//tr[1]/td/div/div/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//tr[1]/td/div/div/a</td>
+	<td>orig_grp_name</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//tr[1]/td[2]/div/div</td>
+	<td>orig_grp_desc</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//tr[1]/td[3]/div/div</td>
+	<td>orig_grp_usr_count</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//tr[1]/td[4]/div/div/span</td>
+	<td>orig_grp_perm</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td> - copy</td>
+	<td>groups_copy</td>
+</tr>
+<tr>
+	<td>verifyNotText</td>
+	<td>//tr[2]/td/div/div/a</td>
+	<td>${orig_grp_name}${groups_copy}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//tr[1]/td/div/div/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//control-cases-of-group/div/div[2]/pag-wrap/div/div[2]/div/div/p</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[2]/button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//control-cases-of-group/div/div[2]/pag-wrap/div/div[2]/div/div/p</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//admin-group/div[1]/div[1]/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[1]/table/tbody/tr[1]/td[4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//tr[2]/td/div/div/a</td>
+	<td>${orig_grp_name}${groups_copy}</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//tr[2]/td[2]/div/div</td>
+	<td>${orig_grp_desc}</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//tr[2]/td[3]/div/div</td>
+	<td>${orig_grp_usr_count}</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//tr[2]/td[4]/div/div/span</td>
+	<td>${orig_grp_perm}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//tr[2]/td[4]/div/div/div/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td></td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div/div/div/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotText</td>
+	<td>//tr[2]/td/div/div/a</td>
+	<td>${orig_grp_name}${groups_copy}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.nav-bar-user-info_dropdown.dropdown-toggle</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Sign Out</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
